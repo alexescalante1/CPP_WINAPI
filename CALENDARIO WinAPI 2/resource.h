@@ -1,0 +1,60 @@
+#ifndef IDC_STATIC
+#define IDC_STATIC (-1)
+#endif
+
+#define DLG_MAIN         100
+#define EDIT0            101
+#define EDIT1            102
+#define EDIT2            103
+#define BTN_INSERTAR     200
+
+#define BTN_0            300
+#define BTN_1            301
+#define BTN_2            302
+#define BTN_3            303
+#define BTN_4            304
+#define BTN_5            305
+#define BTN_6            306
+
+#define BTN_7            307
+#define BTN_8            308
+#define BTN_9            309
+#define BTN_10           3010
+#define BTN_11           3011
+#define BTN_12           3012
+#define BTN_13           3013
+#define BTN_14           3014
+#define BTN_15           3015
+#define BTN_16           3016
+#define BTN_17           3017
+#define BTN_18           3018
+#define BTN_19           3019
+#define BTN_20           3020
+#define BTN_21           3021
+#define BTN_22           3022
+#define BTN_23           3023
+#define BTN_24           3024
+#define BTN_25           3025
+#define BTN_26           3026
+#define BTN_27           3027
+#define BTN_28           3028
+#define BTN_29           3029
+#define BTN_30           3030
+#define BTN_31           3031
+#define BTN_32           3032
+#define BTN_33           3033
+#define BTN_34           3034
+#define BTN_35           3035
+#define BTN_36           3036
+#define BTN_37           3037
+#define BTN_38           3038
+#define BTN_39           3039
+#define BTN_40           3040
+#define BTN_41           3041
+#define BTN_42           3042
+#define BTN_43           3043
+#define BTN_44           3044
+#define BTN_45           3045
+#define BTN_46           3046
+#define BTN_47           3047
+#define BTN_48           3048

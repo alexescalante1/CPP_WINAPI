@@ -1,0 +1,265 @@
+# depslib dependency file v1.0
+1535520308 source:f:\eda yoseph\arbol binario alex escalante\main.cpp
+	<iostream>
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	"resource.h"
+
+1535518078 f:\eda yoseph\arbol binario alex escalante\resource.h
+
+1535520087 source:f:\eda yoseph\arbol binario alex escalante\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1535520308 source:g:\eda yoseph\arbol binario alex escalante winapi\main.cpp
+	<iostream>
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	"resource.h"
+
+1535518078 g:\eda yoseph\arbol binario alex escalante winapi\resource.h
+
+1535520087 source:g:\eda yoseph\arbol binario alex escalante winapi\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1535520308 source:h:\eda yoseph\arbol binario alex escalante winapi\main.cpp
+	<iostream>
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	"resource.h"
+
+1535518078 h:\eda yoseph\arbol binario alex escalante winapi\resource.h
+
+1535520087 source:h:\eda yoseph\arbol binario alex escalante winapi\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1535520308 source:e:\arboles winapi\arbol binario alex escalante winapi\main.cpp
+	<iostream>
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	"resource.h"
+
+1535518078 e:\arboles winapi\arbol binario alex escalante winapi\resource.h
+
+1535520087 source:e:\arboles winapi\arbol binario alex escalante winapi\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1535520087 source:e:\arboles winapi\arbol binario terminado winapi\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1535518078 e:\arboles winapi\arbol binario terminado winapi\resource.h
+
+1537848358 source:e:\arboles winapi\arbol binario terminado winapi\main.cpp
+	<iostream>
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	"resource.h"
+
+1537744963 source:h:\arboles winapi\arbol binario terminado winapi\main.cpp
+	<iostream>
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	"resource.h"
+
+1535518078 h:\arboles winapi\arbol binario terminado winapi\resource.h
+
+1535520087 source:h:\arboles winapi\arbol binario terminado winapi\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1589933114 source:d:\01. estudio profesional desarrollo\c++\01.aplicaciones desarrolladas\ecriptador simple\organizador de datos\main.cpp
+	<iostream>
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	"resource.h"
+
+1535518078 d:\01. estudio profesional desarrollo\c++\01.aplicaciones desarrolladas\ecriptador simple\organizador de datos\resource.h
+
+1535520087 source:d:\01. estudio profesional desarrollo\c++\01.aplicaciones desarrolladas\ecriptador simple\organizador de datos\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1590011637 source:d:\01. estudio profesional desarrollo\c++\01.aplicaciones desarrolladas\ecriptador simple\organizador de datos  visual\main.cpp
+	<iostream>
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	"resource.h"
+
+1589983213 d:\01. estudio profesional desarrollo\c++\01.aplicaciones desarrolladas\ecriptador simple\organizador de datos  visual\resource.h
+
+1590005706 source:d:\01. estudio profesional desarrollo\c++\01.aplicaciones desarrolladas\ecriptador simple\organizador de datos  visual\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1590034621 source:d:\01. estudio profesional desarrollo\c++\01.aplicaciones desarrolladas\encriptador de cuentas simple\organizador de datos  visual\main.cpp
+	<iostream>
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	<fstream>
+	"resource.h"
+
+1589983213 d:\01. estudio profesional desarrollo\c++\01.aplicaciones desarrolladas\encriptador de cuentas simple\organizador de datos  visual\resource.h
+
+1590005706 source:d:\01. estudio profesional desarrollo\c++\01.aplicaciones desarrolladas\encriptador de cuentas simple\organizador de datos  visual\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1590082977 source:d:\01. estudio profesional desarrollo\c++\01.aplicaciones desarrolladas\encriptador de cuentas simple\organizador de datos visual v1.0\main.cpp
+	<iostream>
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	<fstream>
+	"resource.h"
+
+1590064599 d:\01. estudio profesional desarrollo\c++\01.aplicaciones desarrolladas\encriptador de cuentas simple\organizador de datos visual v1.0\resource.h
+
+1590064671 source:d:\01. estudio profesional desarrollo\c++\01.aplicaciones desarrolladas\encriptador de cuentas simple\organizador de datos visual v1.0\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1590270408 source:d:\01. estudio profesional desarrollo\web\02.html, css, javascript\javascript\examples\leer txt\main.cpp
+	<iostream>
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	<fstream>
+	"resource.h"
+
+1590064599 d:\01. estudio profesional desarrollo\web\02.html, css, javascript\javascript\examples\leer txt\resource.h
+
+1590064671 source:d:\01. estudio profesional desarrollo\web\02.html, css, javascript\javascript\examples\leer txt\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1590064671 source:d:\01. estudio profesional desarrollo\web\02.html, css, javascript\javascript\examples\leer txt v2\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1590064599 d:\01. estudio profesional desarrollo\web\02.html, css, javascript\javascript\examples\leer txt v2\resource.h
+
+1590342606 source:d:\01. estudio profesional desarrollo\web\02.html, css, javascript\javascript\examples\leer txt v2\main.cpp
+	<iostream>
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	<fstream>
+	"resource.h"
+
+1590342606 source:\\gigabyte-gaming\archivoscompartidos\05.programas\windows\leer txt v3\main.cpp
+	<iostream>
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	<fstream>
+	"resource.h"
+
+1590064599 \\gigabyte-gaming\archivoscompartidos\05.programas\windows\leer txt v3\resource.h
+
+1590064671 source:\\gigabyte-gaming\archivoscompartidos\05.programas\windows\leer txt v3\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1590584018 source:c:\users\alexescalanteone\desktop\leer txt v3\main.cpp
+	<iostream>
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	<fstream>
+	"resource.h"
+
+1590582774 c:\users\alexescalanteone\desktop\leer txt v3\resource.h
+
+1590583415 source:c:\users\alexescalanteone\desktop\leer txt v3\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1590583415 source:c:\users\alexescalanteone\desktop\leer txt v3 - copia\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1590582774 c:\users\alexescalanteone\desktop\leer txt v3 - copia\resource.h
+
+1590587795 source:c:\users\alexescalanteone\desktop\leer txt v3 - copia\main.cpp
+	<iostream>
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	<fstream>
+	"resource.h"
+
+1590701374 source:c:\users\alexescalanteone\desktop\leer txt v4\main.cpp
+	<iostream>
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	<fstream>
+	"resource.h"
+
+1590688195 c:\users\alexescalanteone\desktop\leer txt v4\resource.h
+
+1590688095 source:c:\users\alexescalanteone\desktop\leer txt v4\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1590867033 source:c:\users\alexescalanteone\desktop\leer txt v5\main.cpp
+	<iostream>
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	<fstream>
+	"resource.h"
+
+1590866444 c:\users\alexescalanteone\desktop\leer txt v5\resource.h
+
+1590865153 source:c:\users\alexescalanteone\desktop\leer txt v5\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+

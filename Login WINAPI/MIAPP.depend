@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1590455376 source:c:\users\alexescalanteone\desktop\miapp\main.cpp
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	"resource.h"
+
+1590455482 c:\users\alexescalanteone\desktop\miapp\resource.h
+
+1590455362 source:c:\users\alexescalanteone\desktop\miapp\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+

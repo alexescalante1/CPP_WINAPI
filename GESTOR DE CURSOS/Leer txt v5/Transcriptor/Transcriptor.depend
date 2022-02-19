@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1590512171 source:c:\users\alexescalanteone\desktop\transcriptor\main.cpp
+	<iostream>
+	<fstream>
+
+1590598208 source:d:\01. estudio profesional desarrollo\c++\01.aplicaciones desarrolladas\winapi\gestor de cursos\leer txt v5\transcriptor\main.cpp
+	<iostream>
+	<fstream>
+

@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1595290807 source:d:\01. estudio profesional desarrollo\c++\01.aplicaciones desarrolladas\winapi\entradadedatos\main.cpp
+	<windows.h>
+	<iostream>
+	<commctrl.h>
+	<stdio.h>
+	"resource.h"
+
+1595289292 d:\01. estudio profesional desarrollo\c++\01.aplicaciones desarrolladas\winapi\entradadedatos\resource.h
+
+1595289292 source:d:\01. estudio profesional desarrollo\c++\01.aplicaciones desarrolladas\winapi\entradadedatos\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+

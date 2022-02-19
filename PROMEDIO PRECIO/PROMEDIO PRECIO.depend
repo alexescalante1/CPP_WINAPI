@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1544900059 source:c:\users\alexescalante\desktop\promedio precio\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cstring>
+	<conio.h>
+	<string.h>
+	<fstream>
+
+1544900059 source:e:\semestre 5º\promedio precio\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cstring>
+	<conio.h>
+	<string.h>
+	<fstream>
+

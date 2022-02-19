@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY COUNTS</title>
+    <link rel="shortcut icon" href="00.LOG.png" type="image/x-icon">
+    
+    <script>
+        function leerArchivo(e) {
+            // e = 'Cuenta.txt';
+            var archivo = e.target.files[0];
+            if (!archivo) {
+            return;
+            }
+            var lector = new FileReader();
+            lector.onload = function(e) {
+            var contenido = e.target.result;
+            Decc(contenido);
+            };
+            lector.readAsText(archivo);
+        }
+
+        function Decc(contenido){
+            
+            contenido = contenido.replace("Us6%$:", "<h1>Usuario: </h1>");
+            contenido = contenido.replace(/wq2e1q2wr2ewrtewtwe2r2ew1r2ew1r4ew6r256ew4rw5et/gi, "&#32")
+            contenido = contenido.replace(/gh2j6g3hh63ghj62h6hgk62hm3bnm625hujm26hj5kmjgh2/gi, "!")
+            contenido = contenido.replace(/ngf54n5g4h5f44hu7ty4hjgf4hn5fg4b5h4fg5h4gf4j7hg/gi, "&#34")
+            contenido = contenido.replace(/pi6o5p5oi5ip68oi58p5o85p8o5ip685oi865p86o5i8p5o/gi, "#")
+            contenido = contenido.replace(/g9hgf8j9gfh99gfh9gf8h9gf8h9gfhdfgsretytjn9bvvvb/gi, "$")
+            contenido = contenido.replace(/rtu88tyu88hd8f9gdf9g8dfhf8d7h8dfhd48fg8df8h4d8f/gi, "%")
+            contenido = contenido.replace(/qw9e9qw98e8qw8d9sd8s89f98ds8gfdfghf89j89ghj8gh9/gi, "&")
+            contenido = contenido.replace(/ddsfd4s85fdfgdfhifdjgijfdijgijfdughfdhguhfudghu/gi, "'")
+            contenido = contenido.replace(/qwewqe5d4sa4d5sd44s4da5s4dasf4a5s6das666ad56sd6/gi, "(")
+            contenido = contenido.replace(/a9s_d8_asd_8-as-fdsf9dsf9ds59f59ds59fdsf59sd59f/gi, ")")
+            contenido = contenido.replace(/dsfdsf6ds5_fds-f-ds5f9ds5f5ds6f6dsfdsfdsfjsdok7/gi, "*")
+            contenido = contenido.replace(/f1g1dfg1d1fgrtyh1f1gh1fgytfy-fg1df1gdfg1df_dfgr/gi, "+")
+            contenido = contenido.replace(/qwdfsdfsdffs5dfs99fvdf58df.df5g85sdf6-dsf5d4s5g/gi, ",")
+            contenido = contenido.replace(/1f5g1vhbn5c1v5b1fg8h8f5g9hf9_gh9_dgfh56gfgh5f1s/gi, "-")
+            contenido = contenido.replace(/dfgh4dfs4g5dfagdf-gfd4a8few5cv6c2x6v2xcv84cvx-d/gi, ".")
+            contenido = contenido.replace(/dewydfg6bv6nb_9vnb_vn9jip_--iop59k5j9l9kjl959ln/gi, "/")
+            contenido = contenido.replace(/zx48cxzv58cvcx15v9f-df_fd-f-d_f9-gfdg5fd5g5ffff/gi, "0")
+            contenido = contenido.replace(/12xcvvc1vcv1c5xv15c--v-c-v.c8vc5v56df5v6cx51v5v/gi, "1")
+            contenido = contenido.replace(/xc0x2v2sd1fd1sf1ds2f1d2s1f--s15f15dsf1s0dfdsfd0/gi, "2")
+            contenido = contenido.replace(/rt4yhdf5g4df8g8ds4gfas49f9dasfa_df-a--s_dsadsdk/gi, "3")
+            contenido = contenido.replace(/x1c1z51v5xc1v584gh8df8h4gf848h9gfhfg-gh-fg9h5gf/gi, "4")
+            contenido = contenido.replace(/we2134dsfw456rgdsfdgfdsg15fdg22f1dgfd2-12f2g12d/gi, "5")
+            contenido = contenido.replace(/dfgfdgfdgfdg21fg4fdg44df5g4df78g4df4g84dfg8_f4g/gi, "6")
+            contenido = contenido.replace(/ewretryrty8rt5ghf51f51hgf-hgfh5gf_fgh4fg5hhgfgt/gi, "7")
+            contenido = contenido.replace(/as8d14as58d1a5s1f15dsx15c14s8zadf5_9ad9asd8sd84/gi, "8")
+            contenido = contenido.replace(/15xv1s8f48yh58rti81ty5uj1t81u5j1gh51n51gfbn515v/gi, "9")
+            contenido = contenido.replace(/qw7e8qw8e7qwe48qw9rwq-e59wq58ed45as1d584as5d15s/gi, ":")
+            contenido = contenido.replace(/9qeswr9e9t5f9g_df_gdf6g5df_g-d5vf95c9xv59xczz9z/gi, ";")
+            contenido = contenido.replace(/sas1d55asd8asdasdgfa-s-dfasfsad--sad--s-adasdas/gi, "<")
+            contenido = contenido.replace(/154as5d1a5sd1sssdssd5d1111115sa15598595548848_4/gi, "=")
+            contenido = contenido.replace(/x1z5c158s1xc51z58d5sa5d151as5d1sa-d_as__sssss_-/gi, ">")
+            contenido = contenido.replace(/xcz1c5s1d8f8dsf88ds8f8ds8d8s8d8sss8df4s8dfd58s_/gi, "?")
+            contenido = contenido.replace(/5qw1515rt1y51hj5i15hjh8k9hjkl_hj_k__j___k_hjkj-/gi, "@")
+            contenido = contenido.replace(/sx1f51sd5f5d1s15f15ds15-58ds88f9ds8f3d23-xcxz_c/gi, "A")
+            contenido = contenido.replace(/bnmbncvbncvnbv6nb5v_n_b6v699b99v9b___bvnbv8nv--/gi, "B")
+            contenido = contenido.replace(/1o5ip1io51p5oip2o6_p_oip26o2i6p2oiiiiii2p6___92/gi, "C")
+            contenido = contenido.replace(/qw15e1q5w1e848r51454444d5sf4ds8f48sdfdsf_s_fd-s/gi, "D")
+            contenido = contenido.replace(/xcv5xc1v1x2cv6xcv5cx9_xv---_xc5v59df48sdfs65df9/gi, "E")
+            contenido = contenido.replace(/154x1<z51c5zx8cxz54cf8dsf4s4d8dsf48a5sd115ssv1c/gi, "F")
+            contenido = contenido.replace(/qw5e48qw4e8qw18eewr95..r5ew49r5ew9rewr9w-e_w-e5/gi, "G")
+            contenido = contenido.replace(/fjdfgbdhfhgfdgdsgfd-sf9ds-.f-ds-fd_sfcvcv_x_df5/gi, "H")
+            contenido = contenido.replace(/v1b51cvfb1d8f58g48dfg8.fdg-fdg--df--fg89df5g6fd/gi, "I")
+            contenido = contenido.replace(/1gf15sdfs56f59ds_f_ds__fd-s_f__ds9fd-sfdfd54sff/gi, "J")
+            contenido = contenido.replace(/tqweuqwemqwhueqwoeqwuyu34.a9e9a---w5e9wa4de84wa/gi, "K")
+            contenido = contenido.replace(/bhsabdhayhsgd_____-lpllpbvcbvc7b98v48b48444484-/gi, "L")
+            contenido = contenido.replace(/bvhcxhbvhxcbvcxvc_xvcx_v6cx5vcx5v48v4cx5.-v.-__/gi, "M")
+            contenido = contenido.replace(/162834672148uusbygfjsidfuh.-595_-9-9559--_udfnj/gi, "N")
+            contenido = contenido.replace(/tsgd.48s58d.asd--asd5as98d59a__s548ad49as-5sad5/gi, "O")
+            contenido = contenido.replace(/retre8t4r5et48ref2d1s5f46sdf9ds9_f-sd9f56d5s9f1/gi, "P")
+            contenido = contenido.replace(/bhj.ds.f.d.sf48ds.f-.84ds8f9ds8-fdsfdsf9dsf-dss/gi, "Q")
+            contenido = contenido.replace(/bnvn54bv1n148bv48n48bvn9bv5nbv84nb_v9-n-vb--n-b/gi, "R")
+            contenido = contenido.replace(/sa54d5as1f15scv55cv15hnj5h5o5ui5o55u4io488.i.../gi, "S")
+            contenido = contenido.replace(/x11c14zx14c1554zx548c489589z595999__x__zc6ds9--/gi, "T")
+            contenido = contenido.replace(/bxcvhbcvhxcvznjvjuzxjcmfjiidaufsd.asd9sa8-d_-as/gi, "U")
+            contenido = contenido.replace(/das5d5asdasdasdasas15f1d5sf8d4s8f4ds8f48dsf.dsd/gi, "V")
+            contenido = contenido.replace(/cx1xc1v11c1115vxv..c.v--cv99c58x8v-8xc-vvv59-55/gi, "W")
+            contenido = contenido.replace(/cx151v5x15c1v515sd1515f5ds151f515sse5gfd5g5df59/gi, "X")
+            contenido = contenido.replace(/yu48tyu8iyuiuy-i-uyi_u_y_i_yu9iuii_i9yu_iuyyyyy/gi, "Y")
+            contenido = contenido.replace(/sadhjasndfbhasdasfsa.-.d-a-9f9ad3_s6d5as2d26v26/gi, "Z")
+            contenido = contenido.replace(/uyi8uiyu5i26u-ty9ut_u2t5j415gf15j4fghfgh_-gfh56/gi, "[")
+            contenido = contenido.replace(/bhdsnjgfmkdsnjhfhusdnjf......ds.f-----dsf---__d/gi, "&#92")
+            contenido = contenido.replace(/vbvb11v15bcv51b51cv5bcv--cv..c.v..c.vb4vc54b415/gi, "]")
+            contenido = contenido.replace(/9<-zc6xz<-6c99xz96c6_x_x_z_c__x__c6xzc66c66c6c9/gi, "^")
+            contenido = contenido.replace(/--c-z-f-d--r-e-r--rt-t-tg-f9g9f-g9f999g99h9gh99/gi, "_")
+            contenido = contenido.replace(/__67__g_f_tg__gfd__fd_re_r6d6f6dg99g99hh5h5hhhh/gi, "`")
+            contenido = contenido.replace(/vc5v15xc5cvx5xxxcv6xc_vf96g6_fg6fd-g6fggg999---/gi, "a")
+            contenido = contenido.replace(/dsgdhmfkidfgjudsgkidstgds25._--dfmkdsmkcgv_5v_d/gi, "b")
+            contenido = contenido.replace(/dsfdshuhuokewpoibn_-.mmsvvvvvvvbfhgfjff--f5_55f/gi, "c")
+            contenido = contenido.replace(/fgbgvslhjghepy1.8--gh146cf_6bhnjgas_-98g55h_-_h/gi, "d")
+            contenido = contenido.replace(/ghrejutheirokhjuwer94759uidfg6-.-fg9-6s---d-.ds/gi, "e")
+            contenido = contenido.replace(/asas-a_s6_as_a96s_a6s9dsd_s9df.f--98dfdjhyghdgd/gi, "f")
+            contenido = contenido.replace(/fnbgdvdfhfujigjig786._-6___e--w9r-98wr5----ccsb/gi, "g")
+            contenido = contenido.replace(/kaspqqpwieyur4.---_6995_y6r6egrhfdfsdhgadyau--5/gi, "h")
+            contenido = contenido.replace(/68hjg8d1fs-5_-sd_f_ds6fsdfbvvnvkjjhk-j-hm6n_b_m/gi, "i")
+            contenido = contenido.replace(/njcvdgjihug.--_6dfg5df59g4bcv564bnmj695u8565gg_/gi, "j")
+            contenido = contenido.replace(/--cv.bcv9b5cvbudshufidsbhufdsf-9s9d_f9ds_965fds/gi, "k")
+            contenido = contenido.replace(/knbxvcvd--._5-j5j599j59_h---bg6h5gfbhbdfs_6dfdd/gi, "l")
+            contenido = contenido.replace(/vgywd1623huew--ds56d9_sd_6-dsfd_f9ds_gsfg6dfgd-/gi, "m")
+            contenido = contenido.replace(/gfdghg9hgf5h95gf59hgf-h--fgh_fg-h_gf6bb_v6xcddv/gi, "n")
+            contenido = contenido.replace(/bvmkvsnjjnvxnjzcvfhuddff.25vc54x9gv59dfg-dfg__-/gi, "o")
+            contenido = contenido.replace(/rtikyortoiyoirtytr--t-ry.tr-y99_<kfgdjigidfdfgg/gi, "p")
+            contenido = contenido.replace(/cnxhzvchdhsygfjsahdasd--sad--sad_as9d_sd9998<nj/gi, "q")
+            contenido = contenido.replace(/8488gfh4f4gh8fg48h<949f8h59d99df--fdg_fd656v444/gi, "r")
+            contenido = contenido.replace(/yewrfwuer6678..-58989959dfghusdgfhdshfgdiopl_--/gi, "s")
+            contenido = contenido.replace(/dygsrfjiswrfdsf958ds45f14ds84f125dsf65sd4f1.-.-/gi, "t")
+            contenido = contenido.replace(/yhuqhuwer<jigfyhdf.6dgf9d-__59f8-dg5--dfgdhfg45/gi, "u")
+            contenido = contenido.replace(/ygasudiysfl348534583465-.-6_9_-----_95f9g5fd5_9/gi, "v")
+            contenido = contenido.replace(/ds1f8s15f1884-599----dsf9df95sdffffff555599ssdf/gi, "w")
+            contenido = contenido.replace(/m8b8n8m888bn888m8nbmnb--m848n8b4m__cgdf54gdf8dd/gi, "x")
+            contenido = contenido.replace(/rty1r1ty1tr1y1tr5y555555----rtyt-r-y---___rtree/gi, "y")
+            contenido = contenido.replace(/x511z5xc1x15--__xcvdfvbgnghkhgjh-j48gh2j51jhg56/gi, "z")
+            contenido = contenido.replace(/b1n51m-nb5m59b5nm___bnmnbm-6b26m6ghj62hgj559g66/gi, "{")
+            contenido = contenido.replace(/v8vvv8451b518gf5h59fg89f5g9ht99y59ty95h6g6626gf/gi, "|")
+            contenido = contenido.replace(/8fg4h8fg5r515r1t8--re4t8-___rete8956264--5re54t/gi, "}")
+            
+            /*contenido = contenido.replace(":::", "<div><h4>");*/
+            contenido = contenido.replace(/:::/gi, "<main><h4>");
+            contenido = contenido.replace(/@@@/gi, "<main><div><div><samp>");
+
+            contenido = contenido.replace(/<a><b>/gi, "");
+
+            contenido = contenido.replace(/<c><d>/gi, "");
+            contenido = contenido.replace(/<d><e>/gi, "");
+            contenido = contenido.replace(/<e><f>/gi, "");
+            contenido = contenido.replace(/<f><g>/gi, "");
+            contenido = contenido.replace(/<g><h>/gi, "");
+            contenido = contenido.replace(/<h><i>/gi, "");
+            contenido = contenido.replace(/<i><j>/gi, "");
+            contenido = contenido.replace(/<j><k>/gi, "");
+            contenido = contenido.replace(/<k><l>/gi, "");
+            contenido = contenido.replace(/<l><m>/gi, "");
+            contenido = contenido.replace(/<m><n>/gi, "");
+            contenido = contenido.replace(/<n><o>/gi, "");
+            contenido = contenido.replace(/<o><p>/gi, "");
+            
+            contenido = contenido.replace(/<p>&&&/gi, "</div></div></main>");
+
+            contenido = contenido.replace(/<a>/gi, "</h4><h3>");
+            contenido = contenido.replace(/<b>/gi, "</h3><h2>");
+
+            contenido = contenido.replace(/<c>/gi, "</samp><h2>Usuario</h2><h3>");
+            contenido = contenido.replace(/<d>/gi, "</h3><h2>Password</h2><h3>");
+            contenido = contenido.replace(/<e>/gi, "</h3><h2>Correo</h2><h3>");
+            contenido = contenido.replace(/<f>/gi, "</h3><h2>Correo de Verificacion Usuario</h2><h3>");
+            contenido = contenido.replace(/<g>/gi, "</h3><h2>correo de verificacion Contraseña</h2><h3>");
+            contenido = contenido.replace(/<h>/gi, "</h3><h2>DNI</h2><h3>");
+            contenido = contenido.replace(/<i>/gi, "</h3><h2>Telefono 1</h2><h3>");
+            contenido = contenido.replace(/<j>/gi, "</h3><h2>Telefono 2</h2><h3>");
+            contenido = contenido.replace(/<k>/gi, "</h3><h2>Pregunta de validacion</h2><h3>");
+            contenido = contenido.replace(/<l>/gi, "</h3><h2>Numero de tarjeta</h2><h3>");
+            contenido = contenido.replace(/<m>/gi, "</h3><h2>Numero de Cuenta</h2><h3>");
+            contenido = contenido.replace(/<n>/gi, "</h3><h2>Contraseña virtual</h2><h3>");
+            contenido = contenido.replace(/<o>/gi, "</h3><h2>Vcc</h2><h3>");
+            contenido = contenido.replace(/<p>/gi, "</h3><h2>Fecha de caducidad</h2><h3>");
+
+            contenido = contenido.replace(/&&&/gi, "</div></div></main>");
+            contenido = contenido.replace(/%%%/gi, "</h2></main>");
+            // alert(contenido);
+            mostrarContenido(contenido);
+            
+        }
+
+        function mostrarContenido(contenido) {
+            var elemento = document.getElementById('contenido-archivo');
+            elemento.innerHTML = contenido;
+        }
+
+        document.getElementById('file-input')
+        document.addEventListener('change', leerArchivo, false); 
+
+    </script>
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: 'open sans'; 
+        }
+
+
+        @media screen and (max-width: 8200px){
+            main{
+                padding: 10px;
+                width: 100%;
+                max-width: 600px;
+                margin: auto;
+                overflow: hidden;
+                font-family: 'open sans';
+            }
+            h3{
+                color: rgb(211, 40, 40);
+                font-size: 20px;
+                text-align: center;
+                margin-bottom: 60px;
+                margin-top: -60px;
+            }
+            
+            h2{
+                color: #642a73;
+                font-size: 30px;
+                text-align: center;
+                margin-bottom: 60px;
+            }   
+        }
+
+        @media screen and (max-width: 800px){
+            main{
+                padding: 10px;
+                width: 100%;
+                max-width: 800px;
+                margin: auto;
+                overflow: hidden;
+                font-family: 'open sans';
+            }
+            h3{
+                color: rgb(211, 40, 40);
+                font-size: 15px;
+                text-align: center;
+                margin-bottom: 60px;
+                margin-top: -60px;
+            }
+            
+            h2{
+                color: #642a73;
+                font-size: 25px;
+                text-align: center;
+                margin-bottom: 60px;
+            }   
+        }
+
+        @media screen and (max-width: 600px){
+            main{
+                padding: 10px;
+                width: 100%;
+                max-width: 1100px;
+                margin: auto;
+                overflow: hidden;
+                font-family: 'open sans';
+            }
+            h3{
+                color: rgb(211, 40, 40);
+                font-size: 15px;
+                text-align: center;
+                margin-bottom: 60px;
+                margin-top: -60px;
+            }
+            
+            h2{
+                color: #642a73;
+                font-size: 20px;
+                text-align: center;
+                margin-bottom: 60px;
+            }   
+        }
+
+
+        header{
+            width: 100%;
+            height: 900px;
+            background: #40E0D0;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, rgba(255, 0, 128, 0.459), rgba(255, 140, 0, 0.596), rgba(64, 224, 208, 0.555)),url(00.IMG1.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, rgba(255, 0, 128, 0.459), rgba(255, 140, 0, 0.596), rgba(64, 224, 208, 0.555)),url(00.IMG1.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background-size: cover;
+            background-attachment: fixed;
+            position: relative;
+        }
+
+        header .textos-header{
+            display: flex;
+            height: 700px;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .textos-header h1{
+            font-size: 50px;
+            color: white;
+        }
+
+        .wave{
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /*about us*/
+
+        .cuentas{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        div{
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        samp{
+            background: #642a73;
+            color: #ffffff;
+            font-size: 50px;
+            margin-bottom: 10px;
+            border-radius: 50%;
+            display: inline-block;
+            text-align: center;
+            width: 40px;
+            height: 40px;
+            box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+            
+            
+        }
+
+        main > h4{
+            background: #4d0686;
+            display: flex;
+            justify-content: space-evenly;
+            height: 100px;
+            margin-bottom: 55px;
+            align-items: center;
+            border-radius: 5px;
+            font-size: 40px;
+            color: #ffffff;
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+        }
+
+        main > h3{
+            background: #3b0766;
+            display: flex;
+            justify-content: space-evenly;
+            height: 40px;
+            align-items: center;
+            border-radius: 5px;
+            font-size: 20px;
+            color: #ffffff;
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+        }
+        main > h2{
+            background: #000000;
+            display: flex;
+            justify-content: space-evenly;
+            height: 30px;
+            margin-top: -65px;
+            margin-bottom: 20px;
+            align-items: center;
+            border-radius: 5px;
+            font-size: 15px;
+            color: #ffffff;
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+        }
+
+
+        footer{
+            background: rgb(0, 0, 0);
+            margin-top: 100px;
+            padding: 20px 0 30px 0;
+            overflow: hidden;
+            color: white;
+            font-size: 10px;
+            text-align: center;
+        }
+
+
+        input[type="file"]{
+            display: none;
+        }
+        label{
+            color: white;
+            height: 60px;
+            width: 250px;
+            background-color: #f5af09;
+            position: absolute;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>   
+         <section class="textos-header">
+             <h1>Mis Cuentas:</h1>
+             <input class="style" type="file" id="file-input" />
+             <label for="file-input">
+                Seleccionar archivo
+            </label>   
+        </section>
+        
+        <div class="wave" style="height: 150px; overflow: hidden;" >
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C281.31,190.95 373.87,-45.88 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #ffff;">
+                </path>
+            </svg>
+        </div>
+    </header>
+    <div>
+        
+        <pre id="contenido-archivo"></pre>
+
+    </div>
+
+    <footer>
+        <p class="titulo-final">&copi My Counts</p>
+    </footer>
+
+</body>
+</html>

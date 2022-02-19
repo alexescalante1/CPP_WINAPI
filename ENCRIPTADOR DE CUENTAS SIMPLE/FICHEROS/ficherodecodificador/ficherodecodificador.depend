@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1590033486 source:d:\01. estudio profesional desarrollo\c++\01.aplicaciones desarrolladas\encriptador de cuentas simple\ficheros\ficherodecodificador\main.cpp
+	<iostream>
+	<fstream>
+	<windows.h>
+	<stdio.h>
+

@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1591666060 source:d:\01. estudio profesional desarrollo\c++\01.aplicaciones desarrolladas\winapi\visualizar horario\main.cpp
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	"resource.h"
+	<iostream>
+	<ctime>
+	<vector>
+
+1591712942 d:\01. estudio profesional desarrollo\c++\01.aplicaciones desarrolladas\winapi\visualizar horario\resource.h
+
+1591712942 source:d:\01. estudio profesional desarrollo\c++\01.aplicaciones desarrolladas\winapi\visualizar horario\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+

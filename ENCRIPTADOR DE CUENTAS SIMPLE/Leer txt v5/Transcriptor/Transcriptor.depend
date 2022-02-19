@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1590512171 source:c:\users\alexescalanteone\desktop\transcriptor\main.cpp
+	<iostream>
+	<fstream>
+
